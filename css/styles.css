@@ -3,7 +3,6 @@ body {
   padding: 7% 10%;
 }
 
-
 h5 {
   color: hsl(303, 10%, 53%);
   font-weight: 700;
@@ -125,9 +124,8 @@ p {
 }
 
 .background-bottom {
-  background-image: url(/images/bg-pattern-bottom-desktop.svg);  
+  background-image: url(/images/bg-pattern-bottom-desktop.svg);
 }
-
 
 .test {
   margin-bottom: 30px;
@@ -141,9 +139,18 @@ p {
   font-size: 12px;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
   body {
     text-align: center;
+  }
+
+  
+  .title {
+    font-size: 50px;
+  }
+
+  .col-lg-6 {
+    padding: 2px 2px;
   }
 
   #rating-2 {
@@ -151,9 +158,9 @@ p {
     left: auto;
   }
 
-    #rating-3 {
-      position: relative;
-      left: auto;
-      margin-bottom: 50px;
-    }
+  #rating-3 {
+    position: relative;
+    left: auto;
+    margin-bottom: 50px;
+  }
 }
