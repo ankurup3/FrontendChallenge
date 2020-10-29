@@ -1,0 +1,159 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  padding: 7% 10%;
+}
+
+
+h5 {
+  color: hsl(303, 10%, 53%);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 900;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.container {
+  padding-bottom: 40px;
+}
+
+.title {
+  color: hsl(300, 43%, 22%);
+  font-weight: 900;
+  font-size: 320%;
+  line-height: 1.0;
+  padding-bottom: 10px;
+}
+
+.review {
+  background-color: hsl(300, 24%, 96%);
+}
+
+.col-lg-6 {
+  padding: 0 50px 50px 0;
+}
+
+#rating-1 {
+  position: relative;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+#rating-2 {
+  position: relative;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  top: 15px;
+  left: 40px;
+}
+
+#rating-3 {
+  position: relative;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  top: 35px;
+  left: 80px;
+}
+
+.card-body {
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 200px;
+}
+
+.testimonial {
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  padding: 25px 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.card-text {
+  color: white;
+}
+
+.customer-pic {
+  border-radius: 100%;
+  width: 15%;
+  float: left;
+  margin-right: 20px;
+}
+
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.card-title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.card-text {
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#colton {
+  position: relative;
+  top: 0;
+}
+
+#irene {
+  position: relative;
+  top: 30px;
+}
+
+#anne {
+  position: relative;
+  top: 60px;
+}
+
+.background-bottom {
+  background-image: url(/images/bg-pattern-bottom-desktop.svg);  
+}
+
+
+.test {
+  margin-bottom: 30px;
+}
+
+.attribution {
+  margin-top: 20px;
+  padding: 50px 0 0 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    text-align: center;
+  }
+
+  #rating-2 {
+    position: relative;
+    left: auto;
+  }
+
+    #rating-3 {
+      position: relative;
+      left: auto;
+      margin-bottom: 50px;
+    }
+}
